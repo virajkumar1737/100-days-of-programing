@@ -12,4 +12,5 @@ scanf("%f",&time);
 printf("simpleinterest is %f",principle*rate*time/100);
 printf("compoundinterest is %f",principle*pow((1+rate/100),time)-principle);
 return 0;
+
 }
